@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.vardhamanbullion.live"
-        versionCode="10010"
-        android-versionCode="10010"
+        versionCode="10011"
+        android-versionCode="10011"
         version   = "1.0.0">
 
 
