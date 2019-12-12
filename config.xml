@@ -62,7 +62,7 @@
 
 	
 	
-<!-- <feature name="SplashScreen" >
+<feature name="SplashScreen" >
     <param
             name="android-package"
             value="org.apache.cordova.splashscreen.SplashScreen" />
@@ -75,7 +75,20 @@
 
 <platform name="android">    
     <splash src="splash.png" />
-    <splash qualifier="land-ldpi" src="res/screen/android/drawable-land-ldpi-screen.png" platform="android"  />
+    <splash src="splash.png" platform="android" qualifier="port-ldpi"  platform="android" />
+	<splash src="splash.png" platform="android" qualifier="land-ldpi"  platform="android" />
+	<splash src="splash.png" platform="android" qualifier="port-mdpi"  platform="android" />
+	<splash src="splash.png" platform="android" qualifier="land-mdpi"  platform="android" />
+	<splash src="splash.png" platform="android" qualifier="port-hdpi" platform="android"  />
+	<splash src="splash.png" platform="android" qualifier="land-hdpi" platform="android"  />
+	<splash src="splash.png" platform="android" qualifier="port-xhdpi" platform="android"  />
+	<splash src="splash.png" platform="android" qualifier="land-xhdpi" platform="android"  />
+	<splash src="splash.png" platform="android" qualifier="port-xxhdpi" platform="android"  />
+	<splash src="splash.png" platform="android" qualifier="land-xxhdpi" platform="android"  />
+	<splash src="splash.png" platform="android" qualifier="port-xxxhdpi" platform="android"  />
+	<splash src="splash.png" platform="android" qualifier="land-xxxhdpi" platform="android"  />
+
+    <!-- <splash qualifier="land-ldpi" src="res/screen/android/drawable-land-ldpi-screen.png" platform="android"  />
     <splash qualifier="land-mdpi" src="res/screen/android/drawable-land-mdpi-screen.png" platform="android"  />
     <splash qualifier="land-hdpi" src="res/screen/android/drawable-land-hdpi-screen.png" platform="android"  />
     <splash qualifier="land-xhdpi" src="res/screen/android/drawable-land-xhdpi-screen.png" platform="android"  />
@@ -86,10 +99,10 @@
     <splash qualifier="port-hdpi" src="res/screen/android/drawable-port-hdpi-screen.png" platform="android"  />
     <splash qualifier="port-xhdpi" src="res/screen/android/drawable-port-xhdpi-screen.png" platform="android"  />
     <splash qualifier="port-xxhdpi" src="res/screen/android/drawable-port-xxhdpi-screen.png" platform="android"  />
-    <splash qualifier="port-xxxhdpi" src="res/screen/android/drawable-port-xxxhdpi-screen.png" platform="android"  />
-</platform> -->
+    <splash qualifier="port-xxxhdpi" src="res/screen/android/drawable-port-xxxhdpi-screen.png" platform="android"  /> -->
+</platform>
 
-	<splash src="splash.png" />
+	<!-- <splash src="splash.png" />
 	<splash src="splash.png" platform="android" qualifier="port-ldpi" />
 	<splash src="splash.png" platform="android" qualifier="land-ldpi" />
 	<splash src="splash.png" platform="android" qualifier="port-mdpi" />
@@ -99,7 +112,7 @@
 	<splash src="splash.png" platform="android" qualifier="port-xhdpi" />
 	<splash src="splash.png" platform="android" qualifier="land-xhdpi" />
 	<splash src="splash.png" platform="android" qualifier="port-xxhdpi" />
-	<splash src="splash.png" platform="android" qualifier="land-xxhdpi" />
+	<splash src="splash.png" platform="android" qualifier="land-xxhdpi" /> -->
 	
 	
 
