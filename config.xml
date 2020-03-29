@@ -18,11 +18,11 @@
         Amit kumar Jain
     </author>
 	
-	<platform name="android">
+	<!-- <platform name="android">
 	  <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
 	    <application android:usesCleartextTraffic="true" />
 	  </edit-config>
-	</platform>
+	</platform> -->
 	
 	<gap:platform name="android" />
 	<gap:plugin name='cordova-plugin-whitelist' spec='1.0.0' source='npm' />
