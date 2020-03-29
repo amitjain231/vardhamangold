@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.vardhamanbullion.live"
         versionCode="10011"
-        android-versionCode="10011"
+        android-versionCode="10012"
         version   = "1.0.0">
 
 
@@ -17,7 +17,12 @@
     <author href="http://www.nemsolutions.com" email="amitjain231@gmail.com">
         Amit kumar Jain
     </author>
-
+	
+	<platform name="android">
+	  <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+	    <application android:usesCleartextTraffic="true" />
+	  </edit-config>
+	</platform>
 	
 	<gap:platform name="android" />
 	<gap:plugin name='cordova-plugin-whitelist' spec='1.0.0' source='npm' />
@@ -106,7 +111,7 @@
 
 	<!-- Preferences Permissions, Phonegap version to build -->
 	<preference name="permissions" value="none"/>
-	<preference name="phonegap-version" value="cli-7.0.1" />
+	<preference name="phonegap-version" value="cli-9.0.0" />
 	<preference name="android-targetSdkVersion" value="28"/>
 	
 	<!-- Required only Notification permission -->
