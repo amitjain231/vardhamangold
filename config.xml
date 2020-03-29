@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
+    	xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.vardhamanbullion.live"
         versionCode="10011"
@@ -18,16 +19,16 @@
         Amit kumar Jain
     </author>
 	
-	<!-- <platform name="android">
+	<platform name="android">
 	  <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
 	    <application android:usesCleartextTraffic="true" />
 	  </edit-config>
-	</platform> -->
+	</platform>
 	
 	<gap:platform name="android" />
 	<gap:plugin name='cordova-plugin-whitelist' spec='1.0.0' source='npm' />
 	<access origin="*" />	
-	<allow-navigation href="http://*/*" />
+	<allow-navigation href="http://*/*" />	
 	<allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
